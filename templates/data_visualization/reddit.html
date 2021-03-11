@@ -3,7 +3,7 @@
 
 {% block stylesheets %}
 	<!-- Bootstrap Data Table Plugin -->
-	<link rel="stylesheet" href="css/components/bs-datatable.css" type="text/css" />
+	<link rel="stylesheet" href='{% static "css/components/bs-datatable.css" %}' type="text/css" />
 {% endblock stylesheets %}
 
 {% block title %}
@@ -509,7 +509,7 @@
 
 {% block javascripts %}
 	<!-- Bootstrap Data Table Plugin -->
-	<script src="js/components/bs-datatable.js"></script>
+	<script src='{% static "js/components/bs-datatable.js" %}'></script>
 {% endblock javascripts %}
 
 {% block scripts %}
