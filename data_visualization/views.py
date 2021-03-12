@@ -6,3 +6,6 @@ def index(request):
 
 def reddit(request):
 	return render(request, 'data_visualization/reddit.html')
+
+def test(request):
+	return render(request, 'data_visualization/charts-scales-time-line-point-data.html')
